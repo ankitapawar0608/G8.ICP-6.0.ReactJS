@@ -1,0 +1,13 @@
+.card{
+    border: 1px solid black;
+  display: flex;
+   border-radius: 10px;
+   box-shadow: 2px 3px 8px;
+    justify-content: center;
+ 
+
+}
+#img-edit{
+    display: flex;
+    margin :0px auto;
+}
