@@ -5,7 +5,7 @@ import shweta from '../AboutUs/shweta.png';
 import anika from '../AboutUs/anika.png';
 import vansh from '../AboutUs/vansh.png';
 import Navbar from '../../components/Navbar/Navbar'
-const AboutUs = () => {
+
 
 function AboutUs() {
   return 
@@ -58,8 +58,8 @@ function AboutUs() {
     </div>
     </div>
     </>
-  )
 }
+
 
 
 export default AboutUs;
