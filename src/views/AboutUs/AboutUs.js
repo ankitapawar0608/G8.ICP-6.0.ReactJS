@@ -8,7 +8,7 @@ import Navbar from '../../components/Navbar/Navbar'
 
 
 function AboutUs() {
-  return 
+  return (
     <>
     <Navbar/>
     <div>
@@ -58,7 +58,9 @@ function AboutUs() {
     </div>
     </div>
     </>
+  )
 }
+
 
 
 
