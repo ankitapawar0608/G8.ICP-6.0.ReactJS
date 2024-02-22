@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom"
+
 import img1 from "../AllCourcesCard/img/Coding workshop-amico.png"
 
 const info =[
