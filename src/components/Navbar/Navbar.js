@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from "react-router-dom"
-import "./Navbar.css"
+import "./Navbar.css";
+//import logoimg  from "./l.png"
 
 function Navbar() {
     return (
@@ -8,8 +9,8 @@ function Navbar() {
 
             <nav className="navbar navbar-expand-lg navbar-light navbar-color">
                 <div className="container-fluid">
-                    <Link className="navbar-brand" href="#">
-                        {/* <img src="logo.png" alt="Logo"> */} CogNexLearn
+                    <Link className="navbar-brand" >
+                         {/* <img src={logoimg} alt="Logo" className='logo'/>  */}CogNexLearn
                     </Link>
 
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
