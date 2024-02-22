@@ -4,10 +4,26 @@
    border-radius: 10px;
    box-shadow: 2px 3px 8px;
     justify-content: center;
+    
  
 
 }
+
+
 #img-edit{
     display: flex;
     margin :0px auto;
+}
+#butcor{
+  color: white;
+    background-color: #050a29;
+    transition-timing-function: linear;
+    transition: width 0.5s;
+    width: 130px;
+}
+#butcor:hover{
+    color: black;
+    background-color: #6674CC;
+     /* transition: 1s;  */
+    width: 150px;
 }
