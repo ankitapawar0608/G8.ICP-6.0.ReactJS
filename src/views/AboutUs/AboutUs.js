@@ -1,10 +1,16 @@
+
 import React from 'react';
 import './AboutUs.css'; // Import CSS file for styling
 import shweta from '../AboutUs/shweta.png';
 import anika from '../AboutUs/anika.png';
 import vansh from '../AboutUs/vansh.png';
+import Navbar from '../../components/Navbar/Navbar'
 const AboutUs = () => {
-  return (
+
+function AboutUs() {
+  return 
+    <>
+    <Navbar/>
     <div>
       <h1 style={{paddingLeft:'550px'}}>AboutUs</h1>
     <div className="about-container" style={{widows:"1000px"}}>
@@ -51,7 +57,9 @@ const AboutUs = () => {
       </div>
     </div>
     </div>
-  );
-};
+    </>
+  )
+}
+
 
 export default AboutUs;
