@@ -1,10 +1,16 @@
 import React from 'react'
+import Navbar from '../../components/Navbar/Navbar'
 
 function Contact() {
   return (
-    <div>Contact
-      <h1> nidhi </h1>
-    </div>
+
+  
+
+    <>
+    <Navbar/>
+    <div>Contact</div>
+    </>
+
   )
 }
 
