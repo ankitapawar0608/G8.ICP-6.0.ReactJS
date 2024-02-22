@@ -1,11 +1,11 @@
 .form-container {
     border: 1px solid #f9f9fc;
     margin-top: 30px;
-    width: 450px;
+    width: 430px;
     margin-left: 250px;
     margin-right: auto;
     padding: 10px;
-    background-color: #f9f9fc;
+    background-color: #f2f2fe;
     position: absolute;
      
 }
@@ -13,21 +13,22 @@
 .lable-1 {
     font-size: 20px;
    margin-top: 15px;
+   
   
 }
 
 .input {
-    width: 350px;
-    border-radius: 6px ;
-    padding: 5px ;
-    margin-top: -8px;
-    
+ width: 350px;
+ padding: 0px;
+ height: 7vh; 
+ border-radius: 15px ; 
+
 }
 
 .input-2{
     width: 350px;
-    border-radius: 3px ;
-    padding: 25px ;
+    border-radius: 15px ;
+    padding: 41px ;
     margin-bottom: 5px;
 
 }
@@ -47,7 +48,7 @@
     margin-top: 30px;
     width: 360px;
     margin-left: auto;
-    margin-right: 300px;
+    margin-right: 310px;
     padding: 10px;
     background-color: #d0cece;
 
@@ -55,7 +56,7 @@
 .label-2{
     font-size: 18px;
     margin-top: 15;
-    padding: 2px;
+    padding: 10px;
 }
 .img-logo{
 margin-left: 25px;

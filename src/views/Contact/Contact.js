@@ -4,7 +4,12 @@ import logo from '../Contact/logo.png'
 import Navbar from '../../components/Navbar/Navbar'
 
 
+
+
 function Contact() {
+
+
+
   return (
     <>
       <Navbar />
@@ -24,7 +29,9 @@ function Contact() {
 
           <p className='lable-1'>Message:</p>
           <input type='text' placeholder='enter your message' className='input-2'></input><br></br>
-          <button className='submit-btn' onclick="alert('Your Message Send Successfully')">Submit</button>
+         <button type='button' className='submit-btn' >
+          submit
+         </button>
         </form>
       </div>
 
@@ -56,5 +63,6 @@ function Contact() {
 
   )
 }
+
 
 export default Contact
