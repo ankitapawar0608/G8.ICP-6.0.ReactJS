@@ -1,6 +1,5 @@
 *{
     margin: 0;
-    box-sizing: border-box;
 }
 
 
@@ -12,9 +11,10 @@
     align-items: center;
 
 }
+
 .cover{
-    font-family: 'Courier New', Courier, monospace;
-    background-color: white;
+    background: url(https://lwfiles.mycourse.app/62a6cd5e1e9e2fbf212d608d-public/f068200b0c2e168d3d5f8dd7cddd575e.jpeg);
+
     width: 30em;
     height: 35em;
     position: relative;
@@ -50,17 +50,14 @@
     background-image: url("../login/facebook.png");
 }
 
-input{
-    border: none;
-    background-color: rgb(216, 216, 247);
-    height: 4em;
-    width: 80%;
-    border-radius: 0.25em;
-    text-align: center;
-    padding: 2em;
+.input-login{
+    border: 2px solid rgb(122, 122, 204);
+    border-radius: 30px;
+
+
 
 }
-input :focus{
+.input-login :focus{
     outline-color: #6674CC;
 }
 

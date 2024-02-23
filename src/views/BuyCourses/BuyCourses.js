@@ -83,7 +83,7 @@ function BuyCourses() {
           <input
             type='text'
             placeholder='Add courses to cart'
-            className='p-2 my-2 w-25 input'
+            className='p-2 my-2 w-25 input-buy'
             value={newCourse}
             onChange={(e) => {
               setNewCourse(e.target.value)
@@ -91,7 +91,7 @@ function BuyCourses() {
 
 
           <select 
-          className='my-2 p-2 mx-3 input'
+          className='my-2 p-2 mx-3 input-buy'
           value={category}
           onChange={(e)=>{
              setCategory(e.target.value)

@@ -8,7 +8,7 @@
     cursor: pointer;
 }
 
-.input{
+.input-buy{
     border: 2px solid rgb(122, 122, 204);
-    border-radius: 22px;
+    border-radius: 30px;
 }

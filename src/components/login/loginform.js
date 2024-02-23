@@ -4,10 +4,10 @@ import"./loginform.css"
 const Loginform = () => {
    
   return (
-    <div className='cover'>
+    <div className='cover background'>
     <h1 >Login</h1>
-    <input type="text" placeholder='username' />
-    <input type="password" placeholder='password' />
+    <input type="text" placeholder='Enter your Username' className='input-login my-2 p-2 mx-3 w-75'/>
+    <input type="password" placeholder='Enter your Password' className='input-login my-2 p-2 mx-3 w-75' />
 
 
       <div className='login-btn' >LOGIN</div>
