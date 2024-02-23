@@ -1,5 +1,6 @@
 import React from 'react'
 import "./AllCOurcesCard.css"
+import {Link} from "react-router-dom" 
 
 function ALLCources(props) {
   const{title,description,img,price}=props.info
@@ -12,7 +13,9 @@ function ALLCources(props) {
     </div>
     <div className='my-2' style={{display:'flex',justifyContent:'space-evenly'}}>
       <h3>₹{price}/-</h3>
-      <button type="button" class="btn " id='butcor'  >Buy</button>
+      <Link to='/buycourses'>
+      <button type="button" className="btn"   id='butcor'  >Buy Now</button>
+      </Link>
     </div>
   </div>
   )

@@ -3,6 +3,7 @@ import "./AllCourses.css"
 import { info } from '../../components/AllCourcesContent/content'
 import ALLCources from '../../components/AllCourcesCard/ALLCourcesCard'
 import Navbar from '../../components/Navbar/Navbar'
+import  Footer  from "../../components/Footer/Footer.js"
 
    
 function AllCourses() {
@@ -20,6 +21,7 @@ function AllCourses() {
       }
       </div>
     </div>
+    <Footer/>
     </>
 
   )
