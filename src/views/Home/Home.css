@@ -1,0 +1,71 @@
+
+
+.main-img{
+    height: 300px;
+    border-radius: 30px;
+}
+.start{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+.h1{
+    font-size: 50px;
+}
+.h2{
+    font-size: 40px;
+    color: #6674cc;
+}
+.explore-btn{
+    color: white;
+    /* background-color: rgb(76, 225, 225); */
+    background-color: #6674cc;
+    border: none;
+    padding: 20px;
+    font-size: 20px;
+    border-radius: 20px;
+}
+.middle{
+    /* background-color: rgb(144, 144, 187); */
+    background-color: #6674cc;
+   width: 1600px;
+    height: 220px;
+    margin: 100px;
+    margin: 0;
+    margin-top: 80px;
+}
+.middle-text{
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    padding: 15px;
+}
+.middle-3-parts{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    font-size: 20px;
+}
+
+.info-box{
+    text-align: center;
+    margin-top: 70px;
+}
+.h-1{
+    color: #6674cc;
+}
+
+.company-section{
+    background-color: rgba(214, 211, 211, 0.819);
+    width: 100%;
+    height: 470px;
+}
+
+.comapny-name{
+    height: 80px;
+}
+.comapny-name-1{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
