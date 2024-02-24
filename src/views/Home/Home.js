@@ -36,8 +36,8 @@ function Home() {
         <div className="start ">
           <div>
             <h1 className="h1">Learn & become the</h1>
-            <h2 className="h2">Top 1% software</h2>
-            <h2 className="h2">developer</h2>
+            <h2 className=" color-change">Top 1% software</h2>
+            <h2 className=" color-change">developer</h2>
 <h3>
     
             <AnimatedSentences sentences={["Web Development + DSA", "MERN Stack Development"," Python Development"]} speed={1000} />
