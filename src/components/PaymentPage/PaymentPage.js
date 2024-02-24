@@ -2,7 +2,7 @@
 import React from 'react';
 import './PaymentPage.css';
 
-function PaymentPage({heading ,instructor,rating,price ,img}) {
+function PaymentPage({heading ,instructor,rating,price ,img,del}) {
   return (
     <>
       <div className="shopping-cart m-5 ">

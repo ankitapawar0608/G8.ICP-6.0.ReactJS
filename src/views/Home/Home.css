@@ -21,10 +21,11 @@
     /* background-color: rgb(76, 225, 225); */
     background-color: #6674cc;
     border: none;
-    padding: 20px;
+    
     font-size: 20px;
     border-radius: 20px;
-    padding: 15px; border-radius: 10px;
+    padding: 15px; 
+    border-radius: 10px;
 }
 .middle{
     /* background-color: rgb(144, 144, 187); */
