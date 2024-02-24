@@ -2,7 +2,8 @@ import React from 'react'
 import './Contact.css'; // Import CSS file for styling
 import logo from '../Contact/logo.png'
 import Navbar from '../../components/Navbar/Navbar'
-
+import Footer from "./../../components/Footer/Footer"
+import {Link} from "react-router-dom"
 
 
 
@@ -15,23 +16,29 @@ function Contact() {
       <Navbar />
 
       <div>
-        <form className='form-container'>
+        <form className='form-container '>
           <h2 className='heading-text'>Get in touch</h2>
           <hr></hr>
-          <p className='lable-1'>Name:</p>
-          <input type='text' placeholder='enter your name' className='input'></input>
+
+          <div >
+          <p className='lable-1 '>Name:</p>
+          <input type='text' placeholder='Enter your name' className='input-contact p-2'></input>
 
           <p className='lable-1'>Email:</p>
-          <input type='text' placeholder='enter your email' className='input'></input>
+          <input type='text' placeholder='Enter your email' className='input-contact p-2'></input>
 
           <p className='lable-1'>Contact No:</p>
-          <input type='text' placeholder='enter your contact no' className='input'></input>
+          <input type='text' placeholder='Enter your contact no' className='input-contact p-2'></input>
 
           <p className='lable-1'>Message:</p>
-          <input type='text' placeholder='enter your message' className='input-2'></input><br></br>
+          <input type='text' placeholder='Enter your message' className='input-2'></input><br></br>
+
+          </div>
+<div className='d-flex justify-content-center my-2'>
          <button type='button' className='submit-btn' >
-          submit
+          Submit
          </button>
+         </div>
         </form>
       </div>
 
@@ -43,14 +50,18 @@ function Contact() {
           </p>
           <hr></hr>
 
-          <p className='label-2'>📞 Moblie:3786563487
+          <p className='label-2'>📞 <Link to="tel:+918830779433"> +91-8888888888</Link>
           </p>
           <hr></hr>
 
-          <p className='label-2'>💬 Gmail:xyz879@gmail.com </p>
+          <p className='label-2'>  📩 <Link to="mailto:ankitapawar0608@gmail.com"> cognexlearn@gmail.com</Link></p>
+
+
+          
+                       
           <hr></hr>
 
-          <p className='label-2'>www.cognexlearn.com</p>
+          <p className='label-2'><Link to="/">www.cognexlearn.com</Link></p>
           <hr></hr>
           <div className='img-logo'>
             <img src={logo} alt='logo'></img>
@@ -58,6 +69,13 @@ function Contact() {
 
         </form>
       </div>
+
+      <br/>
+      <br/> <br/>
+      <br/> <br/>
+      <br/>
+
+      <Footer/>
 
     </>
 

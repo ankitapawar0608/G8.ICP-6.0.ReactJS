@@ -14,7 +14,7 @@
 }
 #butcor{
   color: white;
-    background-color: #050a29;
+  background-color: #6674CC;
     transition-timing-function: linear;
     transition: width 0.5s;
     width: 130px;
@@ -23,7 +23,7 @@
 }
 #butcor:hover{
     color: black;
-    background-color: #6674CC;
+   
      /* transition: 1s;  */
     width: 150px;
 }

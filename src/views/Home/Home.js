@@ -19,6 +19,7 @@ import amazon from "./Homeimg/amazon.jpeg"
 import dell from "./Homeimg/dell.jpeg"
 import deloitte from "./Homeimg/deloitte.jpeg"
 import Footer from "../../components/Footer/Footer"
+import airtel from "./Homeimg/airtel.jpeg"
 
 
 function Home() {
@@ -28,12 +29,12 @@ function Home() {
       <div>
 
 
-        <div className="start">
+        <div className="start ">
           <div>
             <h1 className="h1">Learn & become the</h1>
             <h2 className="h2">Top 1% software</h2>
             <h2 className="h2">developer</h2>
-            <button className="explore-btn">Explore New Batches</button>
+            <button className="explore-btn">Explore New Courses</button>
           </div>
           <div>
             <img src={firstimg} alt='alt' className="main-img" />
@@ -70,7 +71,12 @@ function Home() {
         </div>
 
 
-
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
         <div className="company-section">
           <p className='p-tag'>Thousands of students achieve their <span className='span-tag'>dream job at</span></p>
           <div className="comapny-name-1">
@@ -96,14 +102,18 @@ function Home() {
             <img src={ey} class="comapny-name"  alt='alt'/>
             <img src={isro} class="comapny-name"  alt='alt'/>
             <img src={mb} class="comapny-name"  alt='alt'/>
-            <img src="c-18.png" class="comapny-name"  alt='alt'/>
-            <img src="c-20.png" class="comapny-name"  alt='alt'/>
+            <img src={airtel} class="comapny-name"  alt='alt'/>
+            <img src={google} class="comapny-name"  alt='alt'/>
           </div>
 
 
 
           <h2 className='text-center'>+many more</h2>
         </div>
+
+
+
+        
 
       </div>
 

@@ -12,7 +12,7 @@ function AboutUs() {
     <>
     <Navbar/>
     <div>
-      <h1 style={{paddingLeft:'550px'}}>AboutUs</h1>
+      <h1 className='text-center my-3'>AboutUs</h1>
     <div className="about-container" style={{widows:"1000px"}}>
       {/* Big container with blue border shadow */}
       <div className="big-container">
@@ -20,7 +20,7 @@ function AboutUs() {
         <div className="section">
           {/* First block */}
           <div className="block">
-            <img src={anika}></img>
+            <img src={anika} alt='ankita'></img>
             <div className="info">
               <h2>Ankita Pawar</h2>
               <p>Teaching Assistant</p>
@@ -31,7 +31,7 @@ function AboutUs() {
           <hr className="line" />
           {/* Second block */}
           <div className="block">
-            <img src={shweta}></img>
+            <img src={shweta} alt='shweta'></img>
             <div className="info">
               <h2>Shweta Vasekar</h2>
               <p>Instructor</p>
@@ -42,7 +42,7 @@ function AboutUs() {
           <hr className="line" />
           {/* Third block */}
           <div className="block">
-            <img src={vansh}></img>
+            <img src={vansh} alt='vansh'></img>
             <div className="info">
               <h2>Vansh Bharne</h2>
               <p>Teaching Assistant</p>

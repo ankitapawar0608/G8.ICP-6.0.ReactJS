@@ -37,7 +37,7 @@ function Footer() {
                     <div className="col-lg-3 col-md-6 col-sm-12">
                         <p>Contact us</p>
                         <p><Link to="tel:+918830779433">+91-8888888888</Link></p>
-                        <p><a href="mailto:ankitapawar0608@gmail.com">cognexlearn@gmail.com</a></p>
+                        <p><Link to="mailto:ankitapawar0608@gmail.com">cognexlearn@gmail.com</Link></p>
                     </div>
                 </div>
                 <div className="row ">

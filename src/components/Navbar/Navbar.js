@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from "react-router-dom"
 import "./Navbar.css";
-//import logoimg  from "./l.png"
+import logoimg  from "./Learning-removebg-preview.png";
 
 function Navbar() {
     return (
@@ -9,8 +9,9 @@ function Navbar() {
 
             <nav className="navbar navbar-expand-lg navbar-light navbar-color">
                 <div className="container-fluid">
-                    <Link className="navbar-brand" >
-                         {/* <img src={logoimg} alt="Logo" className='logo'/>  */}CogNexLearn
+                    <Link className="navbar-brand m-2" >
+                         <img src={logoimg} alt="Logo" className='logo'/> 
+                         <span className='text-light fw-bold fs-2 '> CogNexLearn </span>
                     </Link>
 
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">

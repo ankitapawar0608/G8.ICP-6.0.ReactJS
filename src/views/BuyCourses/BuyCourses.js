@@ -5,7 +5,7 @@ import Footer from '../../components/Footer/Footer'
 import imgadd from './button.png';
 import CourseAddCard from '../../components/CourseAddCard/CourseAddCard';
 
-//import PaymentPage from '../../components/PaymentPage/PaymentPage'
+import PaymentPage from '../../components/PaymentPage/PaymentPage'
 
 //import AddtoCart from "./../../components/Add to cart/AddtoCart"
 
@@ -74,11 +74,18 @@ function BuyCourses() {
     <div>
       <Navbar />
 
+      
+
       <div className=' background'>
 
-        <h1 className='text-center m-4'> Buy Courses</h1>
+        
+
+        <h1 className='text-center m-4'>Shopping Cart</h1>
 
 
+        <PaymentPage/> 
+
+        <h1 className='text-center m-4'>Add to Cart</h1>
         <div className=' d-flex justify-content-center'>
           <input
             type='text'
@@ -141,8 +148,7 @@ function BuyCourses() {
 <br/>
 <br/>
 <br/>
-{/* <br/>
-<PaymentPage/> */}
+<br/>
 <br/>
 <br/>
 <br/>

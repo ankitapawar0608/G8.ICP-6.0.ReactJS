@@ -1,97 +1,50 @@
-/* styles.css */
-.payment-container {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
-    background-color: #f5f5f5;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-  }
+/* ShoppingCart.css */
+
+.shopping-cart {
   
-  .merchant-info {
-    text-align: center;
-    margin-bottom: 20px;
-  }
+  margin: 20px auto;
+  padding: 20px;
   
-  .payment-details {
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-    margin-bottom: 20px;
-  }
+  border-radius: 8px;
   
-  .amount {
-    margin-bottom: 20px;
-  }
-  
-  .customer-info input {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 10px;
-    border-radius: 4px;
-    border: 1px solid #ddd;
-  }
-  
-  .pay-button {
-    background-color: #007bff;
-    color: #fff;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    font-size: 16px;
-  }
-  
-  .pay-button:hover {
-    background-color: #0056b3;
-  }
-  
-  .course-info {
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-    margin-bottom: 20px;
-  }
-  
-  .show-more-button {
-    background-color: #28a745;
-    color: #fff;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    font-size: 16px;
-  }
-  
-  .show-more-button:hover {
-    background-color: #218838;
-  }
-  
-  .contact-info {
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-    margin-bottom: 20px;
-  }
-  
-  .footer {
-    text-align: center;
-  }
-  
-  .report-button {
-    background-color: #dc3545;
-    color: #fff;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    font-size: 16px;
-  }
-  
-  .report-button:hover {
-    background-color: #c82333;
-  }
-  
+}
+
+.course-details {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.course-thumbnail {
+  width: 200px;
+  height: 150px;
+  border-radius: 8px;
+  margin-right: 20px;
+}
+
+.course-info {
+  flex: 1;
+}
+
+.total-price {
+  margin-bottom: 20px;
+}
+
+.promotions {
+  border-top: 1px solid #ccc;
+  padding-top: 20px;
+}
+
+.apply-coupon {
+  margin-top: 10px;
+  padding: 8px 16px;
+  color: white;
+  background-color: #6674CC;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.apply-coupon:hover {
+  background-color: #0056b3;
+}
