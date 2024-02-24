@@ -15,9 +15,9 @@ const info =[
     {
         img : img1,
         title : 'Web Development Masterclass - Online Certification Course',
-        description : 'Learn Fullstack Development and Become Internship Ready in Just 6 Months 🚀'
+        description : 'Learn Fullstack Development and Become Internship Ready in Just 6 Months 🚀',
         
-        ,
+        
         price : 3999,
     },
     {

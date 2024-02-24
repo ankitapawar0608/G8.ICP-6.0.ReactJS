@@ -1,34 +1,33 @@
 
 import React from 'react';
 import './PaymentPage.css';
-import webdev from "./download.jpg"
 
-function PaymentPage() {
+function PaymentPage({heading ,instructor,rating,price ,img}) {
   return (
     <>
-      <div className="shopping-cart w-100">
+      <div className="shopping-cart m-5 ">
   
 
         <div className='d-flex justify-content-between'>
           <div className="course-details">
             <img
-              src={webdev}
-              alt="Course Thumbnail"
+              src={img}
+              alt="Course"
               className="course-thumbnail"
             />
             <div className="course-info d-flex">
               <div>
-              <h3 className='m-3'>Web Development Masterclass - Online Certification Course</h3>
+              <h3 className='m-3'>{heading}</h3>
 
 
               <p>
-                <strong>Instructor:</strong> YouAccel Training
+                <strong>Instructor:</strong> {instructor}
               </p>
               <p>
-                <strong>Rating:</strong> ⭐⭐⭐⭐
+                <strong>Rating:</strong> {rating}
               </p>
              
-              <p><strong>Current price:</strong> ₹3,099</p>
+              <p><strong>Current price:</strong> {price}</p>
               </div>
             </div>
           </div>
@@ -42,7 +41,7 @@ function PaymentPage() {
               <p>Promotions</p>
              
               <input type="text" placeholder="Enter Coupon" className='p-1 rounded m-1' />
-              <button className="apply-coupon">Apply coupon</button>
+              <button className="apply-coupon">Buy Now</button>
             </div>
           </div>
 
