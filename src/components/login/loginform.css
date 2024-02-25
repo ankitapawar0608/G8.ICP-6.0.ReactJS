@@ -44,10 +44,10 @@
 }
 
 .google{
-    background-image: url("../login/google.png");
+    background-image: url("../login/img/google.png");
 }
 .facebook{
-    background-image: url("../login/facebook.png");
+    background-image: url("../login/img/facebook.png");
 }
 
 .input-login{

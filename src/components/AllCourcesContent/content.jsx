@@ -1,13 +1,13 @@
 
-import img1 from "../AllCourcesCard/img/img1.png"
-import img2 from "../AllCourcesCard/img/img2.png"
-import img3 from "../AllCourcesCard/img/img3.png"
-import img4 from "../AllCourcesCard/img/img4.png"
-import img5 from "../AllCourcesCard/img/img5.png"
-import img6 from "../AllCourcesCard/img/img6.png"
-import img7 from "../AllCourcesCard/img/img7.png"
-import img8 from "../AllCourcesCard/img/img8.png"
-import img9 from "../AllCourcesCard/img/img9.png"
+import img1 from "../AllCourcesCard/img/download (3).jpg"
+import img2 from "../AllCourcesCard/img/download.jpg"
+import img3 from "../AllCourcesCard/img/download (1).jpg"
+import img4 from "../AllCourcesCard/img/download (2).jpg"
+import img5 from "../AllCourcesCard/img/download (4).jpg"
+import img6 from "../AllCourcesCard/img/download (5).jpg"
+import img7 from "../AllCourcesCard/img/download (6).jpg"
+import img8 from "../AllCourcesCard/img/download (7).jpg"
+import img9 from "../AllCourcesCard/img/download (8).jpg"
 
 const info =[
 

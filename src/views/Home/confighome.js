@@ -1,7 +1,7 @@
-import wedev from "./download (4).jpg"
-import react from "./download.jpg"
-import dsa from "./download (1).jpg"
-import python from "./download (2).jpg"
+import wedev from "./Homeimg/download (4).jpg"
+import react from "./Homeimg/download.jpg"
+import dsa from "./Homeimg/download (1).jpg"
+import python from "./Homeimg/download (2).jpg"
 import dsaa from "./../imgs/download (3).jpg"
 
 const COURSE_DETAILS = [{

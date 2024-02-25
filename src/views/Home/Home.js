@@ -38,15 +38,15 @@ function Home() {
             <h1 className="h1">Learn & become the</h1>
             <h2 className=" color-change">Top 1% software</h2>
             <h2 className=" color-change">developer</h2>
-<h3>
-    
-            <AnimatedSentences sentences={["Web Development + DSA", "MERN Stack Development"," Python Development"]} speed={1000} />
-            </h3>
-   <br/>
-    
+            <h3>
 
-<Link to='./allcourses'>
-            <button className="explore-btn py-2">Explore New Courses</button>
+              <AnimatedSentences sentences={["Web Development + DSA", "MERN Stack Development", " Python Development"]} speed={1000} />
+            </h3>
+            <br />
+
+
+            <Link to='./allcourses'>
+              <button className="explore-btn py-2">Explore New Courses</button>
             </Link>
           </div>
           <div>
@@ -81,9 +81,9 @@ function Home() {
           <h2>JOIN NEW SIGMA!</h2>
           <p>Start your new journey today</p>
           <Link to='./allcourses'>
-          <button className="explore-btn py-2" >
-            Explore 
-          </button>
+            <button className="explore-btn py-2" >
+              Explore
+            </button>
           </Link>
         </div>
 

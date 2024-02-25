@@ -29,10 +29,7 @@ function BuyCourses() {
       setError("")
     }
 
-    // const newCourses=[newCourse, ...courses]
-    // saveTaskToLS(newCourses)
-
-
+    
     const newCourses = [{
       title: newCourse,
       category: category
@@ -44,8 +41,6 @@ function BuyCourses() {
     setCourses(newCourses)
     setNewCourse('')
 
-    //   setCourses([newCourse, ...courses])
-    //   setNewCourse('')
   }
 
   const saveTaskToLS = (taskstoSave) => {

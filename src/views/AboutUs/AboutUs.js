@@ -1,9 +1,9 @@
 
 import React from 'react';
 import './AboutUs.css'; // Import CSS file for styling
-import shweta from '../AboutUs/shweta.png';
-import anika from '../AboutUs/anika.png';
-import vansh from '../AboutUs/vansh.png';
+import shweta from '../AboutUs/Img/shweta.png';
+import anika from '../AboutUs/Img/anika.png';
+import vansh from '../AboutUs/Img/vansh.png';
 import Navbar from '../../components/Navbar/Navbar'
 
 
@@ -57,6 +57,8 @@ function AboutUs() {
       </div>
     </div>
     </div>
+
+    
     </>
   )
 }
