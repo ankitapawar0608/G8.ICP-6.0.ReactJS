@@ -3,7 +3,8 @@ import "./AllCOurcesCard.css"
 import { Link } from "react-router-dom"
 
 function ALLCources(props) {
-  const { title, description, img, price,  } = props.info;  
+  const { id,
+    title, description, img, price,  } = props.info;  
   // rating
   return (
     <div className="card my-3 mx-5 shadow" style={{ width: " 22rem" }}>
@@ -17,10 +18,10 @@ function ALLCources(props) {
       <h3 className='text-center'>₹{price}/-</h3>
       <div className='d-flex justify-content-evenly' >
 
-      <Link to='/buycourses' className="">
+      <Link to="/" className="">
         <button type="button" className="btn my-2" id='butcor'  >Add to Cart</button>
       </Link>
-      <Link to='/buycourses' className="">
+      <Link to={`/allcourses/${id}`} className="">
         <button type="button" className="btn my-2" id='butcor'  >View Course</button>
       </Link>
        

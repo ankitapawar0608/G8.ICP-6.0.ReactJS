@@ -8,6 +8,7 @@ import Login from "./views/Login/Login"
 import AllCourses from "./views/AllCourses/AllCourses"
 import BuyCourses from "./views/BuyCourses/BuyCourses";
 import SignUp from "./views/SignUp/SignUp";
+import ViewMore from './components/ViewMore/ViewMore';
 
 
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -29,11 +30,11 @@ const router = createBrowserRouter([
     path: "/contact",
     element: <Contact />
   },
-  // {
-  //   //path parameter
-  //   path: "/blog/:id" ,
-  //   element : <Read/>
-  // },
+   {
+    
+     path: "/allcourses/:id" ,
+    element : <ViewMore/>
+   },
   {
     path: "/login",
     element: <Login />
@@ -41,6 +42,8 @@ const router = createBrowserRouter([
   {
     path: "/allcourses",
     element: <AllCourses/>
+
+    
   },
   {
     path: "/buycourses",

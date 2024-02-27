@@ -13,6 +13,8 @@ const info =[
 
   
     {
+        id :1,
+        heading : "Web development" ,
         img : img1,
         title : 'Web Development Masterclass - Online Certification Course',
         description : 'Learn Fullstack Development and Become Internship Ready in Just 6 Months 🚀',
@@ -21,6 +23,8 @@ const info =[
         price : 3999,
     },
     {
+        id :2,
+        heading : "C Programming" ,
         img : img2,
         title : 'C Programming For Beginners - Master the C Language',
         description : 'Learn C Programming from Scratch and Kickstart your career in Computer Science',
@@ -28,10 +32,13 @@ const info =[
     },
     
     {
+        id :3,
+        heading : "C++ Programming" ,
         img : img3,
         title : 'Beginning C++ Programming - From Beginner to Beyond',
         description : 'Learn C++ Programming from Scratch and Master the concepts of Object Oriented Programming  ',
-        price : 2999
+        price : 2999,
+        detail:"Obtain Modern C++ Object-Oriented Programming (OOP) and STL skills. C++14 and C++17 covered. C++20 info see below."
     },
     {
         img : img4,
